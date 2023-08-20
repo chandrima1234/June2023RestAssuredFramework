@@ -1,0 +1,1 @@
+{"uuid":"cd3329d3-c001-4cad-8252-24d388a98fec","name":"Circuit API test","children":["f4ff5810-be19-40c8-a4ad-209455f8aa61"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1691573161476,"stop":1691573161477}],"afters":[],"start":1691573161475,"stop":1691573161540}

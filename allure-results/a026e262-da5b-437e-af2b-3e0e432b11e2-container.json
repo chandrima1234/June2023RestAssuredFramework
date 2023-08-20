@@ -1,0 +1,1 @@
+{"uuid":"a026e262-da5b-437e-af2b-3e0e432b11e2","name":"ReqRes API test","children":["bda7b034-b7ed-4e9e-82fb-0f28c4e2bc1a"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1692365967911,"stop":1692365967911}],"afters":[],"start":1692365967909,"stop":1692365970478}

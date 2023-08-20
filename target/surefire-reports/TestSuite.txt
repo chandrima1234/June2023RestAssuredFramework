@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 1.741 sec <<< FAILURE! - in TestSuite
+setUp(com.qa.gorest.tests.amadeuAPITest)  Time elapsed: 0.821 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'baseURI' is required by BeforeTest on method setUp but has not been marked @Optional or defined
+
+

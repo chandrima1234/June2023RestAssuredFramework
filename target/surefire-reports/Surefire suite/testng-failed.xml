@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.gorest.tests.ReqResAPITest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getUserSetup"/>
+          <include name="getReqResUserAPiTest"/>
+        </methods>
+      </class> <!-- com.qa.gorest.tests.ReqResAPITest -->
+      <class name="com.qa.gorest.tests.CircuitTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getUserSetup"/>
+          <include name="getCircuitTest"/>
+        </methods>
+      </class> <!-- com.qa.gorest.tests.CircuitTest -->
+      <class name="com.qa.gorest.tests.amadeuAPITest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getFlightInfoTest"/>
+          <include name="flightApiSteup"/>
+        </methods>
+      </class> <!-- com.qa.gorest.tests.amadeuAPITest -->
+      <class name="com.qa.gorest.tests.CreateUserTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getAllUserstest"/>
+          <include name="getUserSetup"/>
+        </methods>
+      </class> <!-- com.qa.gorest.tests.CreateUserTest -->
+      <class name="com.qa.gorest.tests.GetUserTest">
+        <methods>
+          <include name="getUserQueryParamsTest"/>
+          <include name="setUp"/>
+          <include name="getAllUsersTest"/>
+          <include name="getUserSetup"/>
+        </methods>
+      </class> <!-- com.qa.gorest.tests.GetUserTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
