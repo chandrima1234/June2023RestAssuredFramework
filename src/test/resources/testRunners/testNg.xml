@@ -12,14 +12,7 @@
 
 
 
-	<test name="Circuit API test">
-	<parameter name = "baseURI" value ="http://ergast.com"></parameter>
-	
-		<classes>
-			<class name="com.qa.gorest.tests.CircuitTest" />
 
-		</classes>
-	</test>
 
 <test name="Go Rest API Test">
 	<parameter name = "baseURI" value ="https://gorest.co.in"></parameter>
